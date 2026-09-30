@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENEM — CETI Professor Antônio Maria Madeira</title>
+<style>
+:root{
+  --bg:#101815; --panel:#18221f; --panel2:#1d2925; --accent:#168bff;
+  --accent2:#00a88f; --text:#f5f7f6; --muted:#9ba7a3; --line:#30403a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(135deg,#0c1210,#18221f);font-family:Arial,Helvetica,sans-serif;color:var(--text)}
+.container{max-width:1250px;margin:auto;padding:30px}
+header{padding:28px 0 22px;border-bottom:2px solid var(--accent2)}
+h1{margin:0;font-size:30px;letter-spacing:.5px}
+.subtitle{color:var(--muted);margin-top:8px;font-size:15px}
+.badge{display:inline-block;margin-top:14px;padding:7px 12px;border:1px solid var(--accent);border-radius:20px;color:#dcecff;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:24px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 10px 30px #0004}
+.label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.value{font-size:36px;font-weight:700;margin-top:10px}
+.blue{color:var(--accent)} .green{color:var(--accent2)}
+section{margin-top:26px}
+.section-title{font-size:19px;margin-bottom:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+table{width:100%;border-collapse:collapse;background:var(--panel);border-radius:16px;overflow:hidden}
+th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line)}
+th{background:var(--panel2);color:#dce5e2;font-size:12px;text-transform:uppercase;letter-spacing:.7px}
+td{color:#eef3f1}
+.note{background:#17211e;border-left:4px solid var(--accent2);padding:16px;border-radius:10px;color:#d8e2de;line-height:1.55}
+.bar{height:14px;background:#2b3733;border-radius:10px;overflow:hidden;margin-top:10px}
+.fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:10px}
+footer{margin-top:30px;padding:20px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:800px){.grid,.two{grid-template-columns:1fr}.container{padding:18px}.value{font-size:30px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>CETI Professor Antônio Maria Madeira</h1>
+  <div class="subtitle">Formato: Painel Informativo Power BI</div>
+  <span class="badge">ENEM • 2024</span>
+</header>
+
+<section>
+  <div class="section-title">Indicadores principais</div>
+  <div class="grid">
+    <div class="card">
+      <div class="label">Média geral</div>
+      <div class="value blue">495,2</div>
+      <div class="bar"><div class="fill" style="width:49.52%"></div></div>
+    </div>
+    <div class="card">
+      <div class="label">Média da redação</div>
+      <div class="value green">574,9</div>
+      <div class="bar"><div class="fill" style="width:57.49%"></div></div>
+    </div>
+    <div class="card">
+      <div class="label">Participantes</div>
+      <div class="value">35</div>
+      <div class="subtitle">Participantes registrados na base utilizada</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Resumo dos resultados</div>
+  <table>
+    <thead><tr><th>Indicador</th><th>Resultado</th><th>Ano</th></tr></thead>
+    <tbody>
+      <tr><td>Média geral do ENEM</td><td><strong>495,2</strong></td><td>2024</td></tr>
+      <tr><td>Média da redação</td><td><strong>574,9</strong></td><td>2024</td></tr>
+      <tr><td>Participantes</td><td><strong>35</strong></td><td>2024</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="two">
+  <div class="card">
+    <div class="section-title">Leitura dos indicadores</div>
+    <p>A <strong>média geral</strong> registrada para o ENEM é de <strong>495,2</strong>.</p>
+    <p>A <strong>média da redação</strong> registrada é de <strong>574,9</strong>.</p>
+    <p>O número de <strong>participantes</strong> informado na base é <strong>35</strong>.</p>
+  </div>
+  <div class="card">
+    <div class="section-title">Identificação</div>
+    <p><strong>Instituição:</strong> CETI Professor Antônio Maria Madeira</p>
+    <p><strong>Indicador:</strong> ENEM</p>
+    <p><strong>Período dos dados:</strong> 2024</p>
+    <p><strong>Formato:</strong> painel informativo HTML</p>
+  </div>
+</section>
+
+
+<section>
+  <div class="section-title">IDEB 2023</div>
+  <div class="grid">
+    <div class="card">
+      <div class="label">Ensino Fundamental: Anos Finais</div>
+      <div class="value blue">5,7</div>
+      <div class="subtitle">IDEB 2023</div>
+    </div>
+    <div class="card">
+      <div class="label">Ensino Médio</div>
+      <div class="value green">4,8</div>
+      <div class="subtitle">IDEB 2023</div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Etapa de ensino</th>
+        <th>IDEB 2023</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ensino Fundamental: Anos Finais</td>
+        <td><strong>5,7</strong></td>
+      </tr>
+      <tr>
+        <td>Ensino Médio</td>
+        <td><strong>4,8</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note" style="margin-top:16px">
+    O IDEB é um indicador de 0 a 10 que combina informações de aprovação escolar
+    com o desempenho dos estudantes nas avaliações do Saeb.
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Banco de Dados Escolar</div>
+  <div class="note">
+    O <strong>banco de dados escolar</strong> reúne e organiza as principais informações do CETI Professor Antônio Maria Madeira, estruturando os dados de forma clara e organizada.
+    <br><br>
+    Os dados foram <strong>criados e trabalhados no Microsoft Power BI</strong>, permitindo a elaboração de indicadores, gráficos, cartões e dashboards para facilitar a análise e visualização das informações escolares.
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Observações</div>
+  <div class="note">
+    Este painel apresenta somente as informações de ENEM disponíveis na base utilizada para o dashboard:
+    média geral, média da redação e quantidade de participantes. Não foram inventados indicadores
+    adicionais (como médias por área, distribuição de notas ou número de inscritos) que não estejam
+    presentes na base.
+  </div>
+</section>
+
+<footer>
+  CETI Professor Antônio Maria Madeira — Painel ENEM 2024.<br>
+  Os valores exibidos devem ser interpretados de acordo com a base de dados original utilizada no projeto.
+</footer>
+</div>
+
+<script>
+/* BANCO DE DADOS EMBUTIDO — ENEM / CETI PROFESSOR ANTÔNIO MARIA MADEIRA */
+const bancoDeDadosENEM = {
+  instituicao: "CETI Professor Antônio Maria Madeira",
+  ano: 2024,
+  indicadores: [
+    { indicador: "Média geral", valor: 495.2, unidade: "pontos" },
+    { indicador: "Média da redação", valor: 574.9, unidade: "pontos" },
+    { indicador: "Participantes", valor: 35, unidade: "participantes" }
+  ]
+};
+
+// Função para consultar o banco de dados pelo nome do indicador.
+function consultarENEM(indicador) {
+  return bancoDeDadosENEM.indicadores.find(
+    item => item.indicador.toLowerCase() === indicador.toLowerCase()
+  );
+}
+
+// Exemplo:
+// consultarENEM("Média geral")
+</script>
+
+</body>
+</html>
